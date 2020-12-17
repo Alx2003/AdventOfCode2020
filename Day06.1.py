@@ -3,7 +3,7 @@ Advent of Code 2020 - Day 6 Part 1 - December 6, 2020
 """
 
 # reads text file of input
-data = open('Raw Data\Day6input.txt', 'r')
+data = open('Raw Data\Day06input.txt', 'r')
 
 # initialized variables
 groups = []

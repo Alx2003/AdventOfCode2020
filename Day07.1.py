@@ -3,7 +3,7 @@ Advent of Code 2020 - Day 7 Part 1 - December 7, 2020
 """
 
 # reads text file of input
-data = open('Raw Data\Day7input.txt', 'r')
+data = open('Raw Data\Day07input.txt', 'r')
 
 # initialized variables
 rules = []

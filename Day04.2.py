@@ -72,7 +72,7 @@ validity = True
 numValid = 0
 
 # reads text file of input
-data = open('Raw Data\Day4input.txt', 'r')
+data = open('Raw Data/Day04input.txt', 'r')
 
 # stores each person's credential as a string in a list
 # accounts for a passports data being spread across multiple lines

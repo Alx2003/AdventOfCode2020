@@ -3,7 +3,7 @@ Advent of Code 2020 - Day 2 Part 1 - December 2, 2020
 """
 
 # reads text file of input
-data = open('Raw Data\Day2input.txt', 'r')
+data = open('Raw Data\Day02input.txt', 'r')
 
 # initialized variable
 passwords = []

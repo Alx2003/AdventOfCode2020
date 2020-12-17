@@ -3,7 +3,7 @@ Advent of Code 2020 - Day 1 Part 1 - December 1, 2020
 """
 
 # reads text file of input
-data = open('Raw Data\Day1input.txt', 'r')
+data = open('Raw Data\Day01input.txt', 'r')
 
 # initialized variable
 expenses = []

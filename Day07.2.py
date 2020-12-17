@@ -1,5 +1,5 @@
 """
-Advent of Code 2020 - Day 7 Part 2 - December 7, 2020
+Advent of Code 2020 - Day 7 Part 2 - December 10, 2020
 """
 
 # define functions
@@ -23,7 +23,7 @@ def recursiveTotalCounter(currBag, multiplier):
                     break
 
 # reads text file of input
-data = open('Raw Data\Day7input.txt', 'r')
+data = open('Raw Data\Day07input.txt', 'r')
 
 # initialized variables
 rules = []

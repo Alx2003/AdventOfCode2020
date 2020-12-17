@@ -1,9 +1,9 @@
 """
-Advent of Code 2020 - Day 5 Part 1 - December 5, 2020
+Advent of Code 2020 - Day 5 Part 2 - December 5, 2020
 """
 
 # reads text file of input
-data = open('Raw Data\Day5input.txt', 'r')
+data = open('Raw Data\Day05input.txt', 'r')
 
 # initialized variable
 boardingPasses = []
@@ -15,7 +15,8 @@ seatRows = []
 seatColumns = []
 rows = []
 columns = []
-highestSeat = 0
+seatIDs = []
+mySeat = 0
 
 # stores each line of text file as a string in a list
 for line in data:
@@ -63,9 +64,16 @@ count = 0
 # a list of all seat IDs
 for seat in boardingPasses:
     seatID = seatRows[count]*8+seatColumns[count]
-    if seatID > highestSeat:
-        highestSeat = seatID
+    seatIDs.append(seatID)
     count += 1
 
-print("The highest seat ID is: ", highestSeat)
+# iterates through each seat ID, and checks for
+# a seat ID with a taken seat ID 2 from it, and
+# a vacant seat in between
+for i in seatIDs:
+    if i+2 in seatIDs and i+1 not in seatIDs:
+        mySeat = i+1
+
+print("My seat ID is: ", mySeat)
+
 

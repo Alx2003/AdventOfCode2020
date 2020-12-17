@@ -3,7 +3,7 @@ Advent of Code 2020 - Day 3 Part 2 - December 3, 2020
 """
 
 # reads text file of input
-data = open('Raw Data\Day3input.txt', 'r')
+data = open('Raw Data\Day03input.txt', 'r')
 
 # initialized variable and constants
 pathMap = []
