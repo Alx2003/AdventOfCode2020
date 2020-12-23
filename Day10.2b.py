@@ -3,7 +3,7 @@ Advent of Code 2020 - Day 10 Part 2 - December 17, 2020
 """
 
 # define functions
-# this function uses recursion map the possibilities
+# this function uses recursion to map the possibilities
 # and increment when the end value is reached
 def possibilityMapper(currentSpot):
     global answer
@@ -16,13 +16,13 @@ def possibilityMapper(currentSpot):
                     possibilityMapper(validConnections)
                 break
 
-# reads text file of input
-data = open('Raw Data\Day10input.txt', 'r')
-
 # initialized variables
 adapters = []
 answer = 0
 adapterOptions = []
+
+# reads text file of input
+data = open('Raw Data\Day10input.txt', 'r')
 
 # stores each line of text file in a list
 for line in data:

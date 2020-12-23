@@ -2,9 +2,6 @@
 Advent of Code 2020 - Day 5 Part 2 - December 5, 2020
 """
 
-# reads text file of input
-data = open('Raw Data\Day05input.txt', 'r')
-
 # initialized variable
 boardingPasses = []
 ROW_KEYS = ["F", "B"]
@@ -17,6 +14,9 @@ rows = []
 columns = []
 seatIDs = []
 mySeat = 0
+
+# reads text file of input
+data = open('Raw Data\Day05input.txt', 'r')
 
 # stores each line of text file as a string in a list
 for line in data:

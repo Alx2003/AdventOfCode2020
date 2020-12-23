@@ -20,16 +20,12 @@ def possibilityMapper(currentSpot):
         for path in possibilities:
             possibilityMapper(path)
 
-    # if pathways == 1 move on to next possible adapter
-    # if pathways > 1 use recursion to go through each possibility
-    # when an end value of adapters[-1] is reached increment answer by 1
-
-# reads text file of input
-data = open('Raw Data\Day10input.txt', 'r')
-
 # initialized variables
 adapters = []
 answer = 0
+
+# reads text file of input
+data = open('Raw Data\Day10input.txt', 'r')
 
 # stores each line of text file in a list
 for line in data:

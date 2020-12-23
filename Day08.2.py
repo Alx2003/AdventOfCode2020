@@ -52,14 +52,14 @@ def testCode(command, code, counter):
             search = not search
     return acc
 
-# reads text file of input
-data = open('Raw Data\Day08input.txt', 'r')
-
 # initialized variables
 code = []
 acc = 0
 codeIterations = []
 notBreak = True
+
+# reads text file of input
+data = open('Raw Data\Day08input.txt', 'r')
 
 # stores each line of text file as an integer in a list
 for line in data:

@@ -2,15 +2,15 @@
 Advent of Code 2020 - Day 7 Part 1 - December 7, 2020
 """
 
-# reads text file of input
-data = open('Raw Data\Day07input.txt', 'r')
-
 # initialized variables
 rules = []
 rulesArray = []
 substring = ""
 containSGB = []
 search = True
+
+# reads text file of input
+data = open('Raw Data\Day07input.txt', 'r')
 
 # stores each line of text file as an integer in a list
 for line in data:

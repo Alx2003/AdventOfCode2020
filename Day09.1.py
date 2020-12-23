@@ -2,15 +2,15 @@
 Advent of Code 2020 - Day 9 Part 1 - December 16, 2020
 """
 
-# reads text file of input
-data = open('Raw Data\Day09input.txt', 'r')
-
 # initialized variables
 nums = []
 previousNums = []
 difference = 0
 counter = 0
 invalid = 0
+
+# reads text file of input
+data = open('Raw Data\Day09input.txt', 'r')
 
 # stores each line of text file in a list
 for line in data:

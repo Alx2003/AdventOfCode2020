@@ -22,9 +22,6 @@ def recursiveTotalCounter(currBag, multiplier):
                     recursiveTotalCounter(rule, multiplierPrime)
                     break
 
-# reads text file of input
-data = open('Raw Data\Day07input.txt', 'r')
-
 # initialized variables
 rules = []
 rulesArray = []
@@ -33,6 +30,9 @@ search = True
 totalBags = 0
 total = 0
 counter = 0
+
+# reads text file of input
+data = open('Raw Data\Day07input.txt', 'r')
 
 # stores each line of text file as an integer in a list
 for line in data:

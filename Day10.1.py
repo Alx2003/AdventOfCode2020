@@ -2,9 +2,6 @@
 Advent of Code 2020 - Day 10 Part 1 - December 16, 2020
 """
 
-# reads text file of input
-data = open('Raw Data\Day10input.txt', 'r')
-
 # initialized variables
 adapters = []
 counter = 0
@@ -12,6 +9,9 @@ diff1 = 0
 diff2 = 0
 diff3 = 0
 answer = 0
+
+# reads text file of input
+data = open('Raw Data\Day10input.txt', 'r')
 
 # stores each line of text file in a list
 for line in data:

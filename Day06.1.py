@@ -2,13 +2,13 @@
 Advent of Code 2020 - Day 6 Part 1 - December 6, 2020
 """
 
-# reads text file of input
-data = open('Raw Data\Day06input.txt', 'r')
-
 # initialized variables
 groups = []
 group = []
 total = 0
+
+# reads text file of input
+data = open('Raw Data\Day06input.txt', 'r')
 
 # stores each line of the text file as a string in a list for each group.
 # when a new line character is hit, append the current list to groups array,
